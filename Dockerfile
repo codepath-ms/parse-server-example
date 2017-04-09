@@ -6,9 +6,9 @@ ADD . /parse
 WORKDIR /parse
 RUN npm install
 
-ENV APP_ID setYourAppId
-ENV MASTER_KEY setYourMasterKey
-ENV DATABASE_URI setMongoDBURI
+ENV APP_ID codepathms
+ENV MASTER_KEY codepathmsTripplanner
+ENV DATABASE_URI mongodb://heroku_27jbtcqp:erl0f0m2ped91rv8gtt6doraac@dbh44.mlab.com:27447/heroku_27jbtcqp
 
 # Optional (default : 'parse/cloud/main.js')
 # ENV CLOUD_CODE_MAIN cloudCodePath
